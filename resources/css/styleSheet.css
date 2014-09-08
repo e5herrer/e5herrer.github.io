@@ -1,0 +1,355 @@
+/* ELEMENTS */
+body {
+    padding-top: 40px;
+    position: relative;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+h1 {
+    position: absolute;
+    width: 75vh;
+    top: -20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: blue;
+    right: 100%;
+    white-space: nowrap;
+    
+    -webkit-transform: rotate(270deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: rotate(270deg);
+    -moz-transform-origin: right top;
+    -ms-transform: rotate(270deg);
+    -ms-transform-origin: right top;
+    -o-transform: rotate(270deg);
+    -o-transform-origin: right top;
+    transform: rotate(270deg);
+    transform-origin: right top;
+}
+/* END ELEMENTS */
+
+/* NAVIGATION BAR */
+#navbar {
+    border-bottom: 1px solid red;
+    background: #333;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+    filter: blur(50px);
+}
+
+#navbar .nav li .dropdown-menu
+{
+   color: #fff;
+   background-color: #333;
+}
+ 
+
+#navbar li {
+    padding: 10px;
+    float: left;
+}
+
+#navbar li:first-child{
+    font-size: 16px;
+    color: #FFF;
+    float: left;
+}
+
+#navbar li:last-child{
+    font-size: 16px;
+    color: #FFF;
+    float: right;
+}
+
+#navbar li:last-child ul{
+    float: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    outline-color: #000;
+}
+    
+#navbar .active a {
+    text-shadow:2px 5px 20px #00c6ff;
+}
+
+
+#navbar a:hover {
+    background-color: black;
+}
+
+/* END NAVIGATION BAR */
+
+
+/* SECTIONS */
+.page {
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+    background: #f7f7f7;
+    margin: 2px 2px 2px 2px;
+    padding: 10px;
+    min-height: 100vh;
+    height: auto;
+}
+
+.page:first-child {
+    margin: 20px 2px 2px 2px;   
+}
+
+/* END SECTIONS */
+
+
+/* ABOUT ME SECTION */
+#about-me-section {
+    background-color: #527A7A;
+    color: #000;
+    outline: black;
+}
+
+#about-me-section h1 {
+    color: #527A7A;
+    background-color: #001F2E;
+}
+
+#mydesc {
+    margin-top: 10vh;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px #001F2E;    
+}
+
+#mypic {
+    margin-top: 10vh;
+    margin-right 20px;
+    -webkit-filter: opacity(.9);
+    filter: opacity(.9);
+    max-width: 40vh;
+}
+
+.social_icons {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+    
+.social_icon {
+    width: 50px;
+    height: 50px;
+}    
+
+
+/* END ABOUT ME SECTION */
+
+
+/* PORTFOLIO SECTION */
+.portfolioItem {
+    text-align: center;
+    align-content: center;
+}
+
+#portfolio-sec{
+    background-color: #959533;
+    color: #FFF;
+}
+
+#portfolio-sec h1 {
+    color: #959533;
+    background-color: #59591F;
+}
+
+.demo {
+    align-content: center;
+}
+
+.appicon {
+    width: 75px;
+    height: 75px;
+}
+
+.preview {
+    margin: 50px auto 0;
+}
+
+#appgallery { 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 270px; <!-- set this using javascript --> 
+}
+
+#appgallery a { 
+    float:left; 
+    padding: 5px;
+}
+    
+.clear { 
+    clear:both; 
+}
+
+.hidden-sec{
+    margin: 0 auto;
+    width: 100%;
+    height: 70vh;
+}
+
+.boxgrid{
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+    height: inherit;
+    background:#000;
+    overflow: hidden;
+    position: relative;
+}
+.boxgrid img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+.boxcaption{
+    float: left;
+    position: absolute;
+    background: #000;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    /* For IE 8 */
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+ .caption .boxcaption {
+     top: 88%;
+     left: 0;
+ }
+
+.appicon:hover {
+    -webkit-box-shadow: 0px 0px 3px 5px #E2E1f2;
+    -moz-box-shadow: 0px 0px 3px 5px #E2E1f2;
+    box-shadow: 0px 0px 3px 5px #E2E1f2;
+}
+
+/* END PORTFOLIO SECTION */
+
+/* EDUCATION SECTION */
+#school {
+    align-content: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#education {
+    min-height: 40vh;
+    height: auto;
+    background-color: #E0F0FF;
+}
+
+#education h1{
+    width: 30vh;
+    background-color: #14213D;
+    color: #E0F0FF;
+    border-bottom: 2px solid #f4db60;
+}
+
+#education span{
+    margin-top: 10vh;
+    color: black;
+    font-size: 20px;
+    text-shadow: 1px 1px white;
+}
+/* END EDUCATION SECTION */
+
+/* CONTACT ME SECTION */
+#contact-me {
+      background: #d4d3d1;
+}
+
+#contact-me h1{
+    background: #7d6f60; 
+    color: #d4d3d1;
+}
+
+
+.p-info{
+    display: block;
+	list-style: none;
+	height: auto;
+	overflow: hidden;
+}
+
+#tofield{
+	border: 1px solid #ededed;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+    width: auto;
+}
+
+.sender-info{
+    border: 1px solid #ededed;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: auto;
+}
+
+
+.p-info em {
+	font-size: 16px;
+	color: #9b9b9b;
+	font-weight: 400;
+	font-style: normal;
+    display: block;
+}
+
+.p-info input {
+	line-height: 16px;
+    margin-bottom: 10px;
+	font-size: 16px;
+	color: #6b6b6b;
+	font-weight: 400;
+	background: #f6f6f6;
+	border-left: 1px solid #ededed;
+}
+
+.p-info textarea {
+    margin-bottom: 10px;
+	font-size: 16px;
+	color: #6b6b6b;
+	font-weight: 400;
+	background: #f6f6f6;
+	border-left: 1px solid #ededed; 
+}
+
+.p-info button {
+	color: #6b6b6b;
+    background: #f6f6f6;
+}
+
+.p-info:nth-child(4) {
+    width: 50%;
+}
+
+/* CONTACT ME SECTION */
+
+
+#menu {
+	height:none;
+}
+
+
+
+
+
+
+
+        
+        
+    

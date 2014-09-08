@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>
+    </title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/styleSheet.css" rel="stylesheet">
+</head>
+
+    
+<body data-spy="scroll" id="about-me" data-target="#navbar">
+    <!-- NAVBAR -->
+    <nav id="navbar">                               
+        <ul class="nav">
+            <li><a href="#about-me" class="arctic_scroll"><strong>Esequiel Herrear</strong></a></li>
+            <li><a href="#portfolio-sec" class="arctic_scroll hidden-xs">Portfolio</a></li>
+            <li><a href="#education" class="arctic_scroll  hidden-xs">Education</a></li>
+            <li><a href="#contact-me" class="arctic_scroll  hidden-xs">Contact Me</a></li>
+            <li><a href="#" class="arctic_scroll hidden-sm hidden-md hidden-lg" data-toggle="dropdown">&#9776</a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><a href="#portfolio-sec" class="arctic_scroll">Portfolio</a></li>
+                    <li><a href="#education" class="arctic_scroll">Education</a></li>
+                    <li><a href="#contact-me" class="arctic_scroll">Something else here</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>        
+    <!-- NAVBAR -->
+    
+    <!-- ABOUT ME SECTION -->
+    <section id="about-me-section" class="page">
+      <div class="col-md-1 hidden-xs"><h1>Esequiel Herrera</h1></div> 
+      <div class="row">
+          <div class="col-md-3 col-xs-6 col-xs-offset-2 col-md-offset-0">
+            <img id="mypic" alt="My Picture" src = "resources/images/my_pic_small.jpg" class="img-responsive">
+          </div>
+          <div id="mydesc" class="col-md-6 col-md-offset-0 col-xs-offset-1 col-xs-11">
+            <span>My name is Esequiel Herrera. I am newly graduated from the University of California, San Diego with a Bachelors Degree in Computer Science. My focus being in software engineering. I have done client, server, and database development. I personally prefere client-side because of the additional challenge presented by the client(s). The fact that you can't make any assumption on clients, their actions, or their purpose for using your product. How a proactive testing mindset is required to study their satisfaction. I also like how more and more of the work is shifting toward client-side rather than server-side.  I have worked with Android as well as web applications. I like the transition the web is taking toward web applications</span>
+            </div>
+            <div class="social_icons col-md-6 col-md-offset-0 col-xs-offset-1 col-xs-11">
+                <hr/>
+                <a href="https://www.facebook.com/ezequiel.herrera1"><img class="social_icon" src="resources/images/Facebook_icon.png" alt="Facebook"></a>
+                <a href="https://github.com/e5herrer"><img class="social_icon" src="resources/images/github.png" alt="Github"></a>
+                <a href="https://plus.google.com/u/0/102643611571912351650"><img class="social_icon" src="resources/images/Google_Plus_icon.svg" alt="Google Plus"></a>
+            </div>
+        </div>  
+
+      </section>
+    <!-- ABOUT ME SECTION -->
+
+      <section id="portfolio-sec" class="page">
+            <div class="col-md-1 hidden-xs"><h1>Portfolio</h1></div> 
+            <div class="preview col-md-10 col-md-offset-1">
+                <!-- MEMEMASTER -->
+                <div id="meme-master" class="hidden-sec col-md-12">
+                    <div class="boxgrid caption">
+                        <img class="img-responsive" src="resources/images/mememaster.png"/>
+                        <div class="cover boxcaption">
+                            <h3>MemeMaster</h3>
+                            <p>Mememaster is a web application for the purpose of collecting gifs and memes and also has meme creation functionality. The enfesis of this web app is the client side. There is little to no back end logic. Firebase was used as the database medium. I took many roles in this development of this project including the meme creator, design, database CRUD.<br/><a href="http://www.nonsensesociety.com/2009/03/the-art-of-kamil-smala/" target="_BLANK">More Work</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- MEMEMASTER -->
+                <!-- TOPIX -->
+                <div id="mememaster" class="hidden-sec">
+                    <iframe class="appvid hidden-sm hidden-xs" width="853" height="480" src="http://www.youtube.com/embed/RTutwy3wNGc" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="appvid hidden-xs hidden-md hidden-lg" width="560" height="315" src="http://www.youtube.com/embed/RTutwy3wNGc?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="appvid hidden-sm hidden-md hidden-lg" width="300" height="200" src="http://www.youtube.com/embed/RTutwy3wNGc?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <!-- TOPIX -->
+                
+                <!-- APP THUMBNAILS -->
+                <div class="col-md-12">
+                    <div id="appgallery">
+                        <a href="#"><img src="resources/images/mememaster.png" alt="mememaster thumbnail" class="img-circle appicon img-responsive"/></a>
+                        <a href="#"><img src="resources/images/topix.png" alt="topix thumbnail" class="img-circle appicon img-responsive"/></a>
+                        <a href="#"><img src="resources/images/topix.png" alt="topix thumbnail" class="img-circle appicon img-responsive"/></a>
+                        <br class="clear"/>
+                    </div>
+                </div>
+                <!-- APP THUMBNAILS -->
+                
+            </div>
+      </section>
+    <section id="education" class="page">
+        <div class="col-md-1 hidden-xs"><h1>Education</h1></div> 
+        <div class="row">
+            <div id="school" class="col-sm-3">
+                <div>
+                    <img class="img-responsive" alt="UC San Diego Logo" src="resources/images/ucsd_logo.png"/>
+                </div>
+                <div>
+                    <p>2011-2014</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <span>Esequiel graduated from the University of California, San Diego in 2014 with a bachelors degree in Computer Science.
+                </span>
+            </div>
+        </div>
+      </section>
+
+      <section id="contact-me" class="page">
+          <div class="col-md-1 hidden-xs"><h1>Contact me</h1></div> 
+          <div class="row">
+            <div class="col-sm-10">
+                <form>
+                    <div id="tofield" class="p-info"><em>To:</em><input type="text" placeholder="esequiel.herrera@gmail.com" readonly/></div>
+                    <div class="sender-info">
+                        <div class="p-info"><em>Name:</em><input type="text" id="name" name="name" required/></div>
+                        <div class="p-info"><em>Email:</em><input type="email" id="email" name="email" required/></div>
+                        <div class="p-info"><em>Subject:</em><input type="text" id="subject" name="subject" required/></div>
+                        <div class="p-info"><em>Message:</em><textarea class="form-control" rows="4" required></textarea>                                                       <button type="submit" class="btn btn-default btn-sm pull-right">Send
+                            <span class="glyphicon glyphicon-send"></span>
+                        </button></div>
+                        <div class="p-info">
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="resources/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="resources/js/common.js"></script>
+    <script type="text/javascript" src="resources/js/arcticscroll.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
