@@ -40,10 +40,18 @@ $(document).ready(function(){
 
     //Caption Sliding (Partially Hidden to Visible)
     $('.boxgrid.caption').hover(function(){
-        $(".cover", this).stop().animate({top:'50%'},{queue:false,duration:160});
+        $(".cover", this).stop().animate({top:'65%'},{queue:false,duration:160});
     }, function() {
         $(".cover", this).stop().animate({top:'88%'},{queue:false,duration:160});
     });
 });
 /* SAM DUN SLIDING JQUERY */
+
+
+/* NEEDED TO RESET OFFSET OF SCROLLSPY */
+$('body').scrollspy({
+   offset: 65
+});
+/* NEEDED TO RESET OFFSET OF SCROLLSPY */
+
 

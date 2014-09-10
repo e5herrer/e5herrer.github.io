@@ -131,14 +131,14 @@ h1 {
 }
 
 .social_icons {
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
 }
     
 .social_icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+
 }    
 
 
@@ -152,13 +152,13 @@ h1 {
 }
 
 #portfolio-sec{
-    background-color: #959533;
+    background-color: #693248;
     color: #FFF;
 }
 
 #portfolio-sec h1 {
-    color: #959533;
-    background-color: #59591F;
+    color: #693248;
+    background-color: #7F6284;
 }
 
 .demo {
@@ -171,7 +171,12 @@ h1 {
 }
 
 .preview {
-    margin: 50px auto 0;
+    margin-top: 50px;
+}
+
+#topix img{
+    height: 100%;
+    width: 100%;
 }
 
 #appgallery { 
@@ -199,6 +204,7 @@ h1 {
 .boxgrid{
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
     width: inherit;
     height: inherit;
     background:#000;
@@ -216,6 +222,7 @@ h1 {
     float: left;
     position: absolute;
     background: #000;
+    color: white;
     padding: 10px;
     height: 100%;
     width: 100%;
@@ -246,10 +253,11 @@ h1 {
     margin-top: 5vh;
 }
 
+
 #education {
     min-height: 40vh;
     height: auto;
-    background-color: #E0F0FF;
+    background-color: #E0F0FF; 
 }
 
 #education h1{
@@ -265,6 +273,16 @@ h1 {
     font-size: 20px;
     text-shadow: 1px 1px white;
 }
+
+#education ul{
+    overflow-y: scroll;
+    height: 40vh;
+}
+
+#courses {
+    margin-top: 20px;
+}
+    
 /* END EDUCATION SECTION */
 
 /* CONTACT ME SECTION */
