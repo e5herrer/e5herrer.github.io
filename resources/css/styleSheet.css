@@ -2,7 +2,7 @@
 body {
     padding-top: 40px;
     position: relative;
-    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
 h1 {
@@ -36,7 +36,6 @@ h1 {
     top: 0;
     position: fixed;
     z-index: 2;
-    filter: blur(50px);
 }
 
 #navbar .nav li .dropdown-menu
@@ -124,9 +123,8 @@ h1 {
 
 #mypic {
     margin-top: 10vh;
-    margin-right 20px;
+    margin-right: 20px;
     -webkit-filter: opacity(.9);
-    filter: opacity(.9);
     max-width: 40vh;
 }
 
@@ -183,7 +181,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 270px; <!-- set this using javascript --> 
+    width: 270px; 
 }
 
 #appgallery a { 
@@ -227,10 +225,6 @@ h1 {
     height: 100%;
     width: 100%;
     opacity: .8;
-    /* For IE 5-7 */
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-    /* For IE 8 */
-    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
  .caption .boxcaption {
@@ -358,9 +352,6 @@ h1 {
 /* CONTACT ME SECTION */
 
 
-#menu {
-	height:none;
-}
 
 
 

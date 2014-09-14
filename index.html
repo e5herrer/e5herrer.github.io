@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Select version of IE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Esequiel Herrera</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
             <li><a href="#portfolio-sec" class="arctic_scroll hidden-xs" data-offset="-60">Portfolio</a></li>
             <li><a href="#education" class="arctic_scroll  hidden-xs" data-offset="-60">Education</a></li>
             <li><a href="#contact-me" class="arctic_scroll  hidden-xs" data-offset="-60">Contact Me</a></li>
-            <li><a href="#" class="arctic_scroll hidden-sm hidden-md hidden-lg" data-toggle="dropdown">&#9776</a>
+            <li><a href="#" class="arctic_scroll hidden-sm hidden-md hidden-lg" data-toggle="dropdown">&#9776;</a>
                 <ul class="dropdown-menu pull-right" role="menu">
                     <li><a href="#portfolio-sec" class="arctic_scroll" data-offset="-60">Portfolio</a></li>
                     <li><a href="#education" class="arctic_scroll" data-offset="-60">Education</a></li>
@@ -62,7 +62,7 @@
                 <a href="http://e5herrer.github.io/MemeMaster" target="_blank">
                     <div id="meme-master" class="hidden-sec col-md-12">
                         <div class="boxgrid caption">
-                            <img class="img-responsive" src="resources/images/mememaster.png"/>
+                            <img class="img-responsive" alt="Mememaster-screen-shot" src="resources/images/mememaster.png"/>
                             <div class="cover boxcaption">
                                 <h3>MemeMaster</h3>
                                 <p>Mememaster is a web application built for the purpose of searching and collecting gifs and creating memes. The enfesis of this web app is on the client side. There is little to no back end logic. Firebase was used for the database. My contributions to this web app include: the meme creator, database CRUD, the collection of gifs page, and general design of the entire project.<br/></p>
@@ -75,7 +75,7 @@
                 <a href="https://www.youtube.com/watch?v=vF5KHr00FTk" target="_blank">
                     <div id="topix" class="hidden-sec col-md-12">
                         <div class="boxgrid caption">
-                            <img class="img-responsive" src="resources/images/topixLarge.png"/>
+                            <img class="img-responsive" alt="Topix screen shot" src="resources/images/topixLarge.png"/>
                             <div class="cover boxcaption">
                                 <h3>Topix</h3>
                                 <p>Topix is a picture challenge application for Android. All users receive the same challenge word and are encouraged to take the most creative picture related to the challenge. Things I worked with in this project include: the ViewPagerIndicator library, Picasso library, Google Analytics, Crashalytics, asynchrnous programming, and other Android layouts and widgets.<br/>
@@ -88,7 +88,7 @@
                 
                 <!-- VISIT MY GITHUB -->
                 <a href="https://github.com/e5herrer">
-                    <div id="topix" class="hidden-sec col-md-12">
+                    <div class="hidden-sec col-md-12">
                         <div class="boxgrid caption">
                             <div class="cover boxcaption">
                                 <h3>Visit my Github</h3>
@@ -155,10 +155,10 @@
                 <form action="mailto:esequiel.herrera16@gmail.com" enctype="text/plain" method="post">
                     <div id="tofield" class="p-info"><em>To:</em><input type="text" placeholder="esequiel.herrera16@gmail.com" readonly/></div>
                     <div class="sender-info">
-                        <div class="p-info"><em>Name:</em><input type="text/plain" id="name" name="name" required/></div>
+                        <div class="p-info"><em>Name:</em><input type="text" id="name" name="name" required/></div>
                         <div class="p-info"><em>Email:</em><input type="email" id="email" name="email" required/></div>
-                        <div class="p-info"><em>Subject:</em><input type="text/plain" id="subject" name="subject" required/></div>
-                        <div class="p-info"><em>Message:</em><textarea type="text/plain" id="Body" name="Body" class="form-control" rows="4" required></textarea>                                                       <button type="submit" class="btn btn-default btn-sm pull-right">Send
+                        <div class="p-info"><em>Subject:</em><input type="text" id="subject" name="subject" required/></div>
+                        <div class="p-info"><em>Message:</em><textarea id="Body" name="Body" class="form-control" rows="4"> </textarea>                                                       <button type="submit" class="btn btn-default btn-sm pull-right">Send
                             <span class="glyphicon glyphicon-send"></span>
                         </button></div>
                         <div class="p-info">
@@ -169,7 +169,7 @@
             </div>
         </div>
       </section>
-    </div>
+	  
     <script type="text/javascript" src="resources/js/jquery-1.8.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="resources/js/common.js"></script>
